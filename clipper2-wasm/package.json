@@ -1,28 +1,29 @@
 {
-	"name": "clipper2-wasm",
-	"version": "0.0.9",
-	"description": "WebAssembly port of the Clipper2 library for polygon clipping and offsetting",
-	"module": "dist/es/clipper2z.js",
-	"main": "dist/umd/clipper2z.js",
-	"types": "dist/es/clipper2z.d.ts",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ErikSom/Clipper2-WASM.git"
-	},
-	"keywords": [
-		"clipper",
-		"polygon",
-		"clipping",
-		"offsetting",
-		"wasm",
-		"webassembly"
-	],
-	"author": "Erik Sombroek <eriksombroek@gmail.com>",
-	"license": "BSL-1.0",
-	"files": [
-		"/dist"
-	],
-	"dependencies": {
-		"@types/emscripten": "^1.39.10"
-	}
+  "name": "@alexnorton/clipper2-wasm",
+  "version": "0.0.10",
+  "description": "WebAssembly port of the Clipper2 library for polygon clipping and offsetting",
+  "module": "dist/es/clipper2z.js",
+  "main": "dist/umd/clipper2z.js",
+  "types": "clipper2-wasm.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikSom/Clipper2-WASM.git"
+  },
+  "keywords": [
+    "clipper",
+    "polygon",
+    "clipping",
+    "offsetting",
+    "wasm",
+    "webassembly"
+  ],
+  "author": "Erik Sombroek <eriksombroek@gmail.com>",
+  "license": "BSL-1.0",
+  "files": [
+    "dist/",
+    "clipper2-wasm.d.ts"
+  ],
+  "dependencies": {
+    "@types/emscripten": "^1.39.10"
+  }
 }
